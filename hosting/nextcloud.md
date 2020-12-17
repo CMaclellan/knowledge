@@ -5,7 +5,7 @@ Allow symlinks fix - https://github.com/nextcloud/server/issues/11879
 
 Enable video previews - https://help.nextcloud.com/t/show-thumbnails-for-videos/71251/3
 - Add the following to the config file
-  'enable_previews' => true,
+  ```'enable_previews' => true,
   'enabledPreviewProviders' =>
   array (
     'OC\Preview\Movie',
@@ -19,5 +19,5 @@ Enable video previews - https://help.nextcloud.com/t/show-thumbnails-for-videos/
     'OC\Preview\TXT',
     'OC\Preview\MarkDown',
     'OC\Preview\PDF'
-  ),
+  ),```
 - make sure the following are installed imagemagick-common, php-imagick, and ffmpeg
